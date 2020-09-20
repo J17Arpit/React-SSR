@@ -1,0 +1,14 @@
+.tile {
+    width: 32%;
+    display: inline-block;
+    background: #0080005e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.active {
+    background: #008000bd;
+}

@@ -1,0 +1,11 @@
+.card-wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+    .card-wrapper {
+        width: 75%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}

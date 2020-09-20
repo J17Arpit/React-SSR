@@ -1,0 +1,40 @@
+.card-container {
+    background: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+img {
+    background: #eeeeee;
+    width: 95%;
+}
+
+.mission-label {
+    color: #0058ff
+}
+
+.label {
+    color: #000000;
+}
+
+.mission-info {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 700px) {
+    .card-container {
+        width: 43%;
+        max-height: 410px;
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-container {
+        width: 22%;
+        margin: 0 0 15px 15px;
+    }
+}

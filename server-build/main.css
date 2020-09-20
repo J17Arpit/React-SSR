@@ -1,0 +1,114 @@
+.tile {
+    width: 32%;
+    display: inline-block;
+    background: #0080005e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.active {
+    background: #008000bd;
+}
+.filter-wrapper {
+    width: 100%;
+}
+.filter-wrapper-container {
+    background: #ffffff;
+}
+.filter-section {
+    text-align: center;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    border-bottom: 1px solid #000000;
+}
+
+@media only screen and (min-width: 700px) {
+    .filter-wrapper {
+        width: 25%;
+    }
+}
+.card-container {
+    background: #ffffff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+img {
+    background: #eeeeee;
+    width: 95%;
+}
+
+.mission-label {
+    color: #0058ff
+}
+
+.label {
+    color: #000000;
+}
+
+.mission-info {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 700px) {
+    .card-container {
+        width: 43%;
+        max-height: 410px;
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-container {
+        width: 22%;
+        margin: 0 0 15px 15px;
+    }
+}
+.card-wrapper {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+    .card-wrapper {
+        width: 75%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+.container {
+    display: block;
+    background: #eeeeee;
+  }
+
+.main {
+  background: #eeeeee;
+  padding: 0 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+  @media only screen and (min-width: 700px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+}
