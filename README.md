@@ -19,3 +19,11 @@ Mobile first approach was followed and later following media queries were used t
 
 #Tool used -> WEBPACK
 To generate the production optimized build and enable server side rendering.
+
+CI/CD pipelne has been setup using github inbuilt feature.
+Can be checked under 'Actions' tab.
+
+To deploy on heroku, connection has been setup between this repository and the app repository on heroku using apiKey(private).
+
+NOTE: Screenshots are attached in the issue
+https://github.com/J17Arpit/React-SSR/issues/1#issue-705083350
